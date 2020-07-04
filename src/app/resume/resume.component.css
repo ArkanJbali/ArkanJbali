@@ -1,0 +1,73 @@
+.bgc{
+  background-color: #E6DACE;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.square{
+  background-color: rgba(0, 80, 255, 1);
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  margin-right: 1%;
+  margin-top: 5%;
+}
+.title{
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  font-size: 2vw;
+  margin-top: 5%;
+}
+.card{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2{
+  background-color: white;
+  margin:10%;
+  width: 55%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+}
+.box{
+  padding: 2%;
+  text-align: center;
+}
+#parent_div_1, #parent_div_2, #parent_div_3{
+  background-color: white;
+  width: 55%;
+  padding: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 2% 10% 0 10%;
+  display: inline-block;
+}
+.child_div{
+  float:left;
+  margin-right: 2%;
+}
+.period{
+  color: rgba(0, 80, 255, 1);
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin-top: 2%;
+}
+.position{
+  color: black;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+.company{
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1vw;
+}
+.header{
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin-top: 5%;
+}
+p{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1vw;
+}
