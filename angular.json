@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "arkanjbali"
+    }
+  },
+  "defaultProject": "arkanjbali",
+  "cli": {
+    "analytics": false
+  }
 }
