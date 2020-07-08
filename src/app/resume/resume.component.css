@@ -16,8 +16,8 @@
 .title{
   display: inline-block;
   position: relative;
-  font-weight: bold;
   font-size: 2vw;
+  font: normal normal bold 35px/1.4em poppins-semibold,poppins,sans-serif;
   margin-top: 5%;
 }
 .card{

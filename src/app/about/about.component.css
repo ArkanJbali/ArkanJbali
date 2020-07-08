@@ -44,6 +44,7 @@ hr{
 .title{
   font-weight: bold;
   font-size: 5vw;
+  font: normal normal bold 100px/1.4em poppins-semibold,poppins,sans-serif;
 }
 .subtitle{
   font-size: 2vw;
