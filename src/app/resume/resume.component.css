@@ -32,8 +32,13 @@
   margin-right: 1%;
   margin-top: 5%;
 }
-@media screen and (max-width: 1200px) {
-  p{font-size: 3vw;}
+@media screen and (max-width: 600px) {
+  .download{
+    font-size: 2vw;
+  }
+
+ p{font-size: 3vw;}
+
 }
 /* @media screen and (max-width: 1200px) {
   .title {
@@ -59,8 +64,7 @@
 .title{
   display: inline-block;
   position: relative;
-  font-size: 2vw;
-  font: normal normal bold 35px/1.4em poppins-semibold,poppins,sans-serif;
+  font: normal normal bold 30px/1.4em poppins-semibold,poppins,sans-serif;
   margin-top: 5%;
 }
 .card{

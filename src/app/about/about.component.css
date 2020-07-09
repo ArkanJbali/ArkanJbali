@@ -1,5 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.tt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    margin-left: 15%;
+  }
+  .card{
+    width: 100%;
+  }
+
+}
+
 .pink{
   background-color: #E6DACE;
+  width: 40%;
+  float: left;
 }
 img {
   margin-top: 5%;
@@ -18,8 +48,8 @@ img {
 }
 .card2{
   background-color: #ffffff;
-  position: relative;
-  margin: 10%;
+    /*top right bottom left*/
+  margin: 3% 10% 10% 10%;
 }
 .cardPanel{
 
@@ -97,4 +127,7 @@ a{
   font-size: 1.5vw;
   margin-right: 3%;
   margin-left: 3%;
+}
+.tt{
+  flex: auto;
 }
