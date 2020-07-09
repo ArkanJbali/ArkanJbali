@@ -1,11 +1,15 @@
+@media screen and (min-width: 25em){
+  * { font-size: calc( 1vw + (5vw - 2vw) * (100vw - 400px) / (800 - 400) ); }
+}
 footer{
-  padding: 2rem;
+  padding: 1rem;
 }
 .centerItem{
   text-align: center;
 }
 .title{
   font-weight: bold;
+  font-size: 1.3vw;
 }
 a{
   color: rgba(0, 0, 0, 0.7);
