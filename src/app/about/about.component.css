@@ -49,7 +49,7 @@ img {
 .card2{
   background-color: #ffffff;
     /*top right bottom left*/
-  margin: 3% 10% 10% 10%;
+  margin: 3% 5% 10% 10%;
 }
 .cardPanel{
 
@@ -82,7 +82,7 @@ hr{
 p{
 
   font-size: 1vw;
-  width: 60%;
+  width: 70%;
   display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -130,4 +130,74 @@ a{
 }
 .tt{
   flex: auto;
+}
+
+.react-reval{
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  animation-name: react-reveal-5;
+  opacity: 0;
+}
+.react-reval1{
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 500ms;
+  animation-iteration-count: 1;
+  animation-name: react-reveal-5;
+  opacity: 0;
+}
+@keyframes react-reveal-5 {
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, 20px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+  }
+.wave-emoji {
+  font: normal normal bold 4vw/1.4em poppins-semibold,poppins,sans-serif;
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: wave;
+  animation-name: wave;
+  display: inline-block;
+  -webkit-transform-origin: 70% 70%;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+0% {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+10% {
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+20% {
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+30% {
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+40% {
+  -webkit-transform: rotate(9deg);
+  transform: rotate(9deg);
+}
+50% {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+100% {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
 }
