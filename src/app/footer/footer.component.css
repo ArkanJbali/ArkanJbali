@@ -1,23 +1,31 @@
-@media screen and (min-width: 25em){
-  * { font-size: calc( 1vw + (5vw - 2vw) * (100vw - 400px) / (800 - 400) ); }
+@media screen and (max-width: 1000px){
+  #title{
+    font-size: 0.7em;
+  }
+  #txt{
+    font-size: 0.4em;
+  }
+  #social{
+    font-size: 0.6em;
+  }
 }
 footer{
-  padding: 1rem;
+  padding: 1em;
 }
 .centerItem{
   text-align: center;
 }
 .title{
   font-weight: bold;
-  font-size: 1.3vw;
+  font-size: 1.3em;
 }
 a{
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 1em;
 }
 .social{
-  font-size: 1.2vw;
+  font-size: 1.2em;
   margin-right: 2%;
   margin-left: 2%;
 }

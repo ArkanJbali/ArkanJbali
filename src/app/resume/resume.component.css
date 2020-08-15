@@ -4,19 +4,15 @@
 .column {
   padding: 3%;
 }
-
+.row{
+  margin: 0;
+}
 .line {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /*top right bottom left*/
   margin: 2% 22% 0 22%;
 }
-/* @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    background-color: white;
-  }
-} */
 .bgc{
   background-color: #E6DACE;
   text-align: center;
@@ -33,38 +29,34 @@
   margin-top: 5%;
 }
 @media screen and (max-width: 600px) {
-  .download{
-    font-size: 2vw;
+  #title{
+    font-size: 1em;
   }
-
- p{font-size: 3vw;}
+  .download{
+    font-size: 0.4em;
+  }
+  #period{
+    font-size: 0.7em;
+  }
+  #position{
+    font-size: 0.5em;
+  }
+  #company{
+    font-size: 0.5em;
+  }
+  .txt{
+    font-size: 0.5em;
+  }
+  #header{
+    font-size: 0.8em;
+  }
 
 }
-/* @media screen and (max-width: 1200px) {
-  .title {
-    font-size: 1vw;
-  }
-  .period{
-    font-size: calc(1.325vw + 3.3vw);
-  }
-  .position{
-    font-size: calc(1vw + 3.3vw);
-  }
-  .company{
-    font-size: calc(1vw  + 3.3vw);
-  }
-  p{
-    font-size: 3vw;
-  }
-  .header{
-    font-size: calc(1.525rem + 3.3vw);
-  }
 
-} */
 .title{
   display: inline-block;
   position: relative;
-  font: normal normal bold 30px/1.4em poppins-semibold,poppins,sans-serif;
+  font: normal normal bold 30px/2.4em poppins-semibold,poppins,sans-serif;
   margin-top: 5%;
 }
 .card{
@@ -81,26 +73,26 @@
 .period{
   color: rgba(0, 80, 255, 1);
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   margin-top: 2%;
 }
 .position{
   color: black;
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: 1.2em;
 }
 .company{
   color: rgba(0, 0, 0, 0.6);
-  font-size: 1vw;
+  font-size: 1em;
 }
 .header{
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 1.5em;
   margin-top: 5%;
 }
 p{
   color: rgba(0, 0, 0, 0.8);
-  font-size: 1vw;
+  font-size: 1em;
 }
 
 .react-reval{

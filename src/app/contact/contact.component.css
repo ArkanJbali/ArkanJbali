@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: center;
 }
+.row{
+  margin: 0;
+}
 .square{
   background-color: rgba(0, 80, 255, 1);
   width: 15px;
@@ -16,7 +19,7 @@
 .title{
   display: inline-block;
   position: relative;
-  font-size: 2vw;
+  font-size: 1.5em;
   font: normal normal bold 35px/1.4em poppins-semibold,poppins,sans-serif;
   margin-top: 5%;
 }
@@ -29,7 +32,7 @@ a{
 }
 * {
   box-sizing: border-box;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 
 }
 img {
@@ -103,4 +106,15 @@ img {
   opacity: 1;
   transform: none;
 }
+}
+@media screen and (max-width: 600px) {
+  .containerA {
+    margin-top: 5%;
+  }
+  img{
+    max-width: 15%;
+  }
+  #title{
+    font-size: 1em;
+  }
 }
