@@ -1,12 +1,12 @@
 @media screen and (max-width: 1000px){
   #title{
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   #txt{
-    font-size: 0.4em;
+    font-size: 0.3em;
   }
   #social{
-    font-size: 0.6em;
+    font-size: 0.4em;
   }
 }
 footer{

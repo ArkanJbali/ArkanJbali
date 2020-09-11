@@ -14,7 +14,7 @@
   margin: 2% 22% 0 22%;
 }
 .bgc{
-  background-color: #E6DACE;
+  background-color: #F4ECE6;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -50,7 +50,11 @@
   #header{
     font-size: 0.8em;
   }
-
+  .line{
+    width: 80%;
+     /*top right bottom left*/
+    margin: 2% 10% 0 10%;
+  }
 }
 
 .title{
