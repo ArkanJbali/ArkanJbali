@@ -102,7 +102,7 @@ p{
 .roundBtn{
   width: 20%;
   display: inline-block;
-  margin:4%;
+  margin:3%;
   border: 1px solid rgba(0, 80, 255, 1);
   border-radius: 100px 100px 100px 100px;
   font-size: 1em;
@@ -113,7 +113,7 @@ p{
 .roundBtn2{
   width: 20%;
   display: inline-block;
-  margin:4%;
+  margin:3%;
   border: 1px solid rgba(0, 80, 255, 1);
   border-radius: 100px 100px 100px 100px;
   font-size: 1em;

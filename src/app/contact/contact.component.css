@@ -19,9 +19,13 @@
 .title{
   display: inline-block;
   position: relative;
-  font-size: 1.5em;
-  font: normal normal bold 35px/1.4em poppins-semibold,poppins,sans-serif;
+  font: normal normal bold 30px/2.4em poppins-semibold,poppins,sans-serif;
   margin-top: 5%;
+}
+@media screen and (max-width: 600px) {
+  #title{
+    font-size: 1em;
+  }
 }
 .subParagraph{
   background: rgba(0,0,0,0.3);
