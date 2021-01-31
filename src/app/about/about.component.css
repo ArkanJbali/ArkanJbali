@@ -8,7 +8,6 @@
   padding: 10px;
 }
 
-
 .tt:after {
   content: "";
   display: table;
@@ -20,23 +19,33 @@
     width: 100%;
     /* margin-left: 15%; */
   }
-  .card{
+  .card {
     width: 100%;
   }
-  #pink{
+  #pink {
     width: 70%;
   }
-  .txt{
+  .txt {
     font-size: 0.7em;
     width: 80%;
   }
-  #roundBtn{font-size: 0.6em;}
-  #roundBtn2{font-size: 0.6em;}
-
+  #roundBtn {
+    font-size: 0.6em;
+  }
+  #roundBtn2 {
+    font-size: 0.6em;
+  }
 }
-
-.pink{
-  background-color: #E6DACE;
+@media screen and (min-width: 600px) {
+  .card2 {
+    background-color: #ffffff;
+    /*top right bottom left*/
+    margin: 3% 5% 10% 10%;
+    width: 100%;
+  }
+}
+.pink {
+  background-color: #e6dace;
   width: 40%;
   float: left;
 }
@@ -46,63 +55,60 @@ img {
   border-radius: 50%;
   width: 50%;
 }
-.card{
-    background-color: #F4ECE6;
-    position: relative;
-    margin: 10%;
-    left: 20%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    align-items: center;
+.card {
+  background-color: #f4ece6;
+  position: relative;
+  margin: 10%;
+  left: 20%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-items: center;
 }
-.card2{
+.card2 {
   background-color: #ffffff;
-    /*top right bottom left*/
-  margin: 3% 5% 10% 10%;
+  /*top right bottom left*/
   width: 100%;
 }
-.cardPanel{
-
+.cardPanel {
   padding: 3%;
-
 }
-hr{
+hr {
   width: 20%;
   box-sizing: border-box;
-    border-top: .3rem solid rgba(0, 80, 255, 1);
+  border-top: 0.3rem solid rgba(0, 80, 255, 1);
 }
-.name{
+.name {
   font-weight: bold;
   font-size: 2em;
 }
-.role{
-  color: rgba(0,0,0,.5);
-  font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+.role {
+  color: rgba(0, 0, 0, 0.5);
+  font: normal normal normal 17px/1.4em avenir-lt-w01_35-light1475496,
+    sans-serif;
   letter-spacing: 0.25em;
   font-size: 1em;
 }
-.title{
+.title {
   font-weight: bold;
-  font: normal normal bold 5vw/1.4em poppins-semibold,poppins,sans-serif;
+  font: normal normal bold 5vw/1.4em poppins-semibold, poppins, sans-serif;
 }
-.subtitle{
+.subtitle {
   font-size: 1.5em;
 }
 
-p{
-
+p {
   font-size: 1em;
   width: 70%;
   display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-.roundBtn{
+.roundBtn {
   width: 20%;
   display: inline-block;
-  margin:3%;
+  margin: 3%;
   border: 1px solid rgba(0, 80, 255, 1);
   border-radius: 100px 100px 100px 100px;
   font-size: 1em;
@@ -110,16 +116,15 @@ p{
   background: rgba(0, 80, 255, 1);
   text-align: center;
 }
-.roundBtn2{
+.roundBtn2 {
   width: 20%;
   display: inline-block;
-  margin:3%;
+  margin: 3%;
   border: 1px solid rgba(0, 80, 255, 1);
   border-radius: 100px 100px 100px 100px;
   font-size: 1em;
   padding: 2%;
   text-align: center;
-
 }
 /* div.roundBtn2:hover{
   background-color: rgba(0, 80, 255, 1);
@@ -129,20 +134,20 @@ div.roundBtn:hover{
   background-color: white;
   color: black;
 } */
-a{
+a {
   color: black;
   text-decoration: none;
 }
-.social{
+.social {
   font-size: 1.2em;
   margin-right: 3%;
   margin-left: 3%;
 }
-.tt{
+.tt {
   flex: auto;
 }
 
-.react-reval{
+.react-reval {
   animation-fill-mode: both;
   animation-duration: 1000ms;
   animation-delay: 0ms;
@@ -150,7 +155,7 @@ a{
   animation-name: react-reveal-5;
   opacity: 0;
 }
-.react-reval1{
+.react-reval1 {
   animation-fill-mode: both;
   animation-duration: 1000ms;
   animation-delay: 500ms;
@@ -167,9 +172,9 @@ a{
     opacity: 1;
     transform: none;
   }
-  }
+}
 .wave-emoji {
-  font: normal normal bold 4vw/1.4em poppins-semibold,poppins,sans-serif;
+  font: normal normal bold 4vw/1.4em poppins-semibold, poppins, sans-serif;
   -webkit-animation-duration: 1.8s;
   animation-duration: 1.8s;
   -webkit-animation-iteration-count: infinite;
@@ -182,32 +187,32 @@ a{
 }
 
 @keyframes wave {
-0% {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-10% {
-  -webkit-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-}
-20% {
-  -webkit-transform: rotate(12deg);
-  transform: rotate(12deg);
-}
-30% {
-  -webkit-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-}
-40% {
-  -webkit-transform: rotate(9deg);
-  transform: rotate(9deg);
-}
-50% {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-100% {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  20% {
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+  30% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  40% {
+    -webkit-transform: rotate(9deg);
+    transform: rotate(9deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }

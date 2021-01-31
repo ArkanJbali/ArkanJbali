@@ -1,13 +1,13 @@
-.bgc{
-  background-color: #F4ECE6;
+.bgc {
+  background-color: #f4ece6;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.row{
+.row {
   margin: 0;
 }
-.square{
+.square {
   background-color: rgba(0, 80, 255, 1);
   width: 15px;
   height: 15px;
@@ -16,28 +16,27 @@
   margin-right: 1%;
   margin-top: 5%;
 }
-.title{
+.title {
   display: inline-block;
   position: relative;
-  font: normal normal bold 30px/2.4em poppins-semibold,poppins,sans-serif;
+  font: normal normal bold 30px/2.4em poppins-semibold, poppins, sans-serif;
   margin-top: 5%;
 }
 @media screen and (max-width: 600px) {
-  #title{
+  #title {
     font-size: 1em;
   }
 }
-.subParagraph{
-  background: rgba(0,0,0,0.3);
+.subParagraph {
+  background: rgba(0, 0, 0, 0.3);
 }
-a{
+a {
   color: black;
   text-decoration: none;
 }
 * {
   box-sizing: border-box;
   /* line-height: 1.5; */
-
 }
 img {
   margin-top: 10%;
@@ -51,12 +50,16 @@ img {
   justify-content: center;
   height: 40vh;
   background: rgb(255, 255, 255);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+@media screen and (min-width: 600px) {
+  .card {
+    width: 400px;
+  }
 }
 .card {
   position: relative;
   background: rgb(255, 255, 255);
-  width: 400px;
   height: 40vh;
   border-radius: 6px;
   padding: 2rem;
@@ -77,7 +80,7 @@ img {
 .card__image-container {
   margin: -2rem -2rem 1rem -2rem;
 }
-.react-reval{
+.react-reval {
   animation-fill-mode: both;
   animation-duration: 1000ms;
   animation-delay: 0ms;
@@ -85,7 +88,7 @@ img {
   animation-name: react-reveal-5;
   opacity: 0;
 }
-.react-reval1{
+.react-reval1 {
   animation-fill-mode: both;
   animation-duration: 1000ms;
   animation-delay: 500ms;
@@ -93,7 +96,7 @@ img {
   animation-name: react-reveal-5;
   opacity: 0;
 }
-.react-reval2{
+.react-reval2 {
   animation-fill-mode: both;
   animation-duration: 1000ms;
   animation-delay: 1s;
@@ -102,23 +105,23 @@ img {
   opacity: 0;
 }
 @keyframes react-reveal-5 {
-0% {
-  opacity: 0;
-  transform: translate3d(0px, -30px, 0px);
-}
-100% {
-  opacity: 1;
-  transform: none;
-}
+  0% {
+    opacity: 0;
+    transform: translate3d(0px, -30px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 @media screen and (max-width: 600px) {
   .containerA {
     margin-top: 5%;
   }
-  img{
+  img {
     max-width: 15%;
   }
-  #title{
+  #title {
     font-size: 1em;
   }
 }
