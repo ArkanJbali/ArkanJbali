@@ -1,6 +1,6 @@
 ## Hello, 👋
 ### Here's who I am & what I do
-Highly Motivated and results-oriented Junior FullStack Developer @[CODIT Software Solutions](https://github.com/CoditSofwareSolutions) 💼. Skilled in developing productive, user-friendly applications and further support.
+Highly Motivated and results-oriented Junior FullStack Developer @[CODIT Software Solutions](https://codit.co.il) 💼. Skilled in developing productive, user-friendly applications and further support.
 Graduated bachelor degree :mortar_board: of computer science (B.Sc.). 
 During my studies I gained 🌱 knowledge, experience and I was team leader for Full stack project, operated by Tsofen organization, in cooperation with Amdocs.
   - :books: Strong interpersonal skills; passionate about learning something new every day.
