@@ -22,8 +22,8 @@ I started as a full-stack developer, but soon focused on frontend, where I enjoy
 ## 🚀 Featured Projects
 
 - 🎉 **Restaurant Queue App** — Dual-tab React Native app for order queue display  
-- 💍 **Wedding Memory App** — Mobile AR app to match photos/videos using Expo & ViroReact  
-- 🍰 **UncleOsaka Admin Panel** — React web dashboard for inventory & scheduling
+- 💍 **Memory App** — Mobile AR app to match photos/videos using Expo & ViroReact  
+- 🍰 **Admin Panel** — React web dashboard for inventory & scheduling
 
 > 👉 Check out my pinned repos below or explore my [portfolio](https://arkanjbali.herokuapp.com)
 
