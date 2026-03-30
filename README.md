@@ -31,7 +31,7 @@ I started as a full-stack developer and grew into frontend specialization, where
 - 🤖 **AI-Powered Chat Assistant** — Integrated **OpenAI API** into a React frontend with real-time chat & context memory  
 - 📊 **CRM Lite (SaaS)** — Lightweight **Next.js + MongoDB** CRM prototype for SMEs with multi-tenant setup  
 
-👉 See my pinned repositories below or explore my [Portfolio](https://arkanjbali.herokuapp.com)  
+👉 See my pinned repositories below or explore my [Portfolio](https://arkanjbali.com)  
 
 ---
 
